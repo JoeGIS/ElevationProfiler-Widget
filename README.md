@@ -83,12 +83,6 @@ Find a bug or want to request a new feature?  Please let us know by submitting a
 ## Contributing
 Anyone and everyone is welcome to contribute.
 
-## Credits
-Modified from code create by Christopher Weiss (cmweiss@gmail.com) Copyright 2012
-Adapted from the geomagc software and World Magnetic Model of the NOAA
-Satellite and Information Service, National Geophysical Data Center
-[Source](http://www.ngdc.noaa.gov/geomag/WMM/DoDWMM.shtml)
-
 ## Licensing
 The MIT License (MIT)
 
