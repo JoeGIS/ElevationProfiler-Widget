@@ -1,0 +1,20 @@
+<div class="${theme}" role="presentation">
+    <link rel="stylesheet" href="${css_path}"/>
+    Draw Route: 
+    <img data-dojo-attach-point="elevationProfilerPolyline" id="elevationProfilerPolyline" 
+            data-dojo-attach-event="onClick:_elevationProfilerPolylineClick" 
+            src="" title="Polyline" class="${css.elevationProfilerTool}" /> 
+    <img data-dojo-attach-point="elevationProfilerFreehand_Polyline" id="elevationProfilerFreehand_Polyline" 
+            data-dojo-attach-event="onClick:_elevationProfilerFreehand_PolylineClick" 
+            src="" title="Freehand Polyline" class="${css.elevationProfilerTool}" /> 
+    <br /><br />
+    Unit of Measure: 
+    <select data-dojo-attach-point="elevationProfilerUnitsSelect" data-dojo-attach-event="onChange:_elevationProfilerUnitsSelect_Change">
+        <option value="esriMeters">Meters</option>
+        <option value="esriKilometers" selected>Kilometers</option>
+        <option value="esriMiles">Miles</option>
+        <option value="esriNauticalMiles">Nautical Miles</option>
+        <option value="esriYards">Yards</option>
+        <option value="esriFeet">Feet</option>
+    </select>
+</div>

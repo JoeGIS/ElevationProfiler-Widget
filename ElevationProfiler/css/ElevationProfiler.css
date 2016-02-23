@@ -1,0 +1,49 @@
+
+
+.elevationProfilerWidget .elevationProfilerTool {
+    
+    background-color: rgba(0, 0, 0, 0.1);
+    border: 1px solid #666;
+    border-radius: 5px;
+    
+    height: 20px;
+    width: 20px;
+    
+    margin: 2px;
+    
+    vertical-align: middle;
+    
+    cursor: pointer;
+}
+
+.elevationProfilerWidget .elevationProfilerTool:Hover{
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+
+.elevationProfilerWidget .elevationProfilerToolSelected {
+    background-color: rgba(0, 0, 0, 0.3);
+    border: 2px solid #333;
+    border-radius: 5px;
+    
+    height: 20px;
+    width: 20px;
+    
+    margin: 1px;
+    
+    vertical-align: middle;
+    
+    cursor: pointer;
+    
+}
+
+.esriElevationProfile .esriElevationProfileSourceLabel {
+    color: #555
+}
+
+
+
+
+
+
+
