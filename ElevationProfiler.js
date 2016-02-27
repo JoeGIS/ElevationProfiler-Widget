@@ -2,7 +2,7 @@
 ///////////////////////////------ElevationProfiler.js------//////////////////////////
 /////////////////////////////////////////////////////////////////////////////////////
 // 
-// Version: 1.1
+// Version: 1.2
 // Author: Joseph Rogan (joseph.rogan@forces.gc.ca canadajebus@gmail.com)
 // 
 // 
@@ -35,8 +35,10 @@
         // Show the results window
         // elevationProfiler.showResults();
     // });
-    
 //
+// Changes:
+// Version 1.2
+//  -Added .elevationProfilerWidget { white-space: nowrap; } to css file
 // Version 1.1
 //  -Changed to remove graphic when the floating pane is hidden
 // 
